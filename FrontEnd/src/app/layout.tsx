@@ -49,17 +49,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${serif.variable} ${sans.variable} antialiased`}>
-        <header className="border-b border-black/10">
+        <header className="border-b border-black/10 bg-white/80 backdrop-blur supports-[backdrop-filter]:backdrop-blur">
           <div className="container flex items-center justify-between py-4">
-            <a href="/" className="text-2xl font-semibold tracking-wide">
+            <a href="/" className="text-2xl font-semibold tracking-wide link link-gold">
               Times <span className="gold-accent">of</span> Fashion
             </a>
             <nav className="hidden md:flex gap-6 text-sm">
-              <a href="/" className="hover:underline">Home</a>
-              <a href="/about" className="hover:underline">About</a>
-              <a href="/blog" className="hover:underline">Blog</a>
-              <a href="/contact" className="hover:underline">Contact</a>
-              <a href="/newsletter" className="hover:underline">Newsletter</a>
+              <a href="/" className="link">Home</a>
+              <a href="/about" className="link">About</a>
+              <a href="/blog" className="link">Blog</a>
+              <a href="/contact" className="link">Contact</a>
+              <a href="/newsletter" className="link">Newsletter</a>
             </nav>
           </div>
         </header>
