@@ -49,12 +49,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${serif.variable} ${sans.variable} antialiased`}>
-        <header className="border-b border-dark bg-white">
-          <div className="container flex items-center justify-between py-4">
-            <a href="/" className="text-2xl font-serif font-semibold tracking-wide">
+        <header className="sticky top-0 z-50 border-b border-dark bg-white/95 backdrop-blur">
+          <div className="container flex items-center justify-between py-3">
+            <a href="/" className="select-none text-[26px] md:text-[30px] leading-none font-serif font-black tracking-[-0.02em]">
               Times <span className="gold-accent">of</span> Fashion
             </a>
-            <nav className="hidden md:flex gap-6 text-sm">
+            <nav className="hidden md:flex items-center gap-6 text-[12px] tracking-[0.2em] uppercase">
               <a href="/" className="hover:underline">Home</a>
               <a href="/about" className="hover:underline">About</a>
               <a href="/blog" className="hover:underline">Blog</a>
