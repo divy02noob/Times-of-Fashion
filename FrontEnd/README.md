@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Times of Fashion – Frontend
 
-## Getting Started
+Modern fashion magazine built with Next.js App Router. Responsive, SEO-ready, styled with Tailwind and custom CSS variables.
 
-First, run the development server:
+### Getting Started
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Structure
+- Home, About, Blog (Fashion, Beauty, Lifestyle, Celebrity), Contact, Newsletter
+- `robots.txt` and `sitemap.xml` routes included
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Design System
+- Colors: black, white, pastel pink/blue/mint, gold accents
+- Fonts: Playfair Display (serif), Inter (sans)
 
-## Learn More
+### Content Plan (Launch)
+- Top 10 Fashion Trends to Try This Season
+- Budget-Friendly Fashion Hacks
+- Celebrity Street Styles You Can Copy
+- Capsule Wardrobe for Busy Weeks
+- 7 Beauty Routines for a Lasting Glow
+- Red Carpet Looks to Recreate
+- Fall Layering Guide: Chic and Cozy
+- Statement Accessories Under Budget
+- Work-to-Dinner Outfit Formulas
+- Weekend City Style: What to Wear
+- Editor’s Picks: This Month’s Must-Haves
+- Minimalist Makeup: Fresh-Face Essentials
+- Hair Trends Dominating This Season
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Editorial cadence: 3–4 posts/week, weekly newsletter roundup.
