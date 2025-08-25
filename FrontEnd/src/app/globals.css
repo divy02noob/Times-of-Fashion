@@ -3,7 +3,7 @@
 :root {
   --color-black: #111111;
   --color-white: #ffffff;
-  --color-pastel-pink: #f8e7ef;
+  --color-pastel-pink: #111111;
   --color-pastel-blue: #e7f1fb;
   --color-pastel-mint: #e8f7f1;
   --color-gold: #c6a667;
@@ -24,8 +24,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #111111;
   }
 }
 
@@ -75,4 +75,21 @@ body {
   font-family: var(--font-serif);
   font-size: 1.75rem;
   letter-spacing: 0.02em;
+}
+
+/* New styles for better contrast with the new color scheme */
+.text-on-dark {
+  color: var(--color-white);
+}
+
+.text-on-light {
+  color: var(--color-black);
+}
+
+.border-light {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.border-dark {
+  border-color: rgba(0, 0, 0, 0.1);
 }

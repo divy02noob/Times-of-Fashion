@@ -1,14 +1,25 @@
+import HeroCarousel from "./components/HeroCarousel";
+
 export default function Home() {
   return (
     <div>
-      <section className="border-b border-black/10 bg-[var(--color-pastel-pink)]">
-        <div className="container py-16 text-center">
+      <section className="relative border-b border-light">
+        <div className="absolute inset-0">
+          <HeroCarousel
+            images={[
+              { src: "/globe.svg", alt: "Fashion globe" },
+              { src: "/window.svg", alt: "Showcase window" },
+              { src: "/file.svg", alt: "Detail texture" },
+            ]}
+          />
+        </div>
+        <div className="container py-16 text-center relative">
           <p className="uppercase tracking-[0.3em] text-xs gold-accent">Times of Fashion</p>
-          <h1 className="mt-3 text-4xl md:text-6xl font-serif leading-tight">Your Daily Dose of Fashion & Glamour</h1>
-          <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg opacity-80">Trends, beauty, lifestyle and celebrity style inspiration—curated for fashion lovers and creators.</p>
+          <h1 className="mt-3 text-4xl md:text-6xl font-serif leading-tight text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">Your Daily Dose of Fashion & Glamour</h1>
+          <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-white opacity-95 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">Trends, beauty, lifestyle and celebrity style inspiration—curated for fashion lovers and creators.</p>
           <div className="mt-8 flex items-center justify-center gap-3">
             <a href="#latest" className="btn btn-primary">Read Latest</a>
-            <a href="/newsletter" className="btn">Subscribe</a>
+            <a href="/newsletter" className="btn border-white text-white hover:bg-white hover:text-black">Subscribe</a>
           </div>
         </div>
       </section>
@@ -17,7 +28,7 @@ export default function Home() {
         <h2 className="section-title">Latest Articles</h2>
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {Array.from({ length: 6 }).map((_, index) => (
-            <article key={index} className="border border-black/10 rounded-lg overflow-hidden">
+            <article key={index} className="border border-dark rounded-lg overflow-hidden bg-white">
               <div className="aspect-[16/10] bg-[var(--color-pastel-blue)]" />
               <div className="p-4">
                 <div className="text-xs uppercase tracking-widest opacity-70">Fashion</div>
@@ -34,7 +45,7 @@ export default function Home() {
           <h2 className="section-title">Category Highlights</h2>
           <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
             {["Fashion", "Beauty", "Lifestyle", "Celebrity"].map((category) => (
-              <a key={category} href={`/blog/${category.toLowerCase()}`} className="border border-black/10 rounded-lg p-6 bg-white/60 hover:bg-white transition">
+              <a key={category} href={`/blog/${category.toLowerCase()}`} className="border border-dark rounded-lg p-6 bg-white/80 hover:bg-white transition">
                 <div className="text-xs uppercase tracking-widest opacity-70">{category}</div>
                 <div className="mt-2 text-base">Explore the latest in {category.toLowerCase()}.</div>
               </a>
@@ -50,13 +61,13 @@ export default function Home() {
             <p className="mt-3 opacity-80">Weekly fashion insights, trend reports, and exclusive editor picks—straight to your inbox.</p>
           </div>
           <form className="flex gap-3">
-            <input type="email" placeholder="Your email address" className="flex-1 border border-black/15 rounded-full px-4 py-3 outline-none" />
+            <input type="email" placeholder="Your email address" className="flex-1 border border-dark rounded-full px-4 py-3 outline-none" />
             <button className="btn btn-primary" type="submit">Subscribe</button>
           </form>
         </div>
       </section>
 
-      <section className="border-t border-black/10">
+      <section className="border-t border-dark">
         <div className="container py-14">
           <h2 className="section-title">Instagram</h2>
           <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2">

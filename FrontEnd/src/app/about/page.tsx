@@ -20,7 +20,7 @@ export default function AboutPage() {
             as a form of self-expression.
           </p>
         </div>
-        <aside className="border border-black/10 rounded-lg p-6 bg-[var(--color-pastel-mint)]/60">
+        <aside className="border border-dark rounded-lg p-6 bg-[var(--color-pastel-mint)]/80">
           <div className="text-sm uppercase tracking-widest opacity-70">Contact</div>
           <div className="mt-2">For partnerships and press: collaboration@timesoffashion.com</div>
         </aside>

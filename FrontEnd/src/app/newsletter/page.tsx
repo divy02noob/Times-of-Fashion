@@ -11,7 +11,7 @@ export default function NewsletterPage() {
         Subscribe for curated trend reports, beauty routines, and celebrity style breaks.
       </p>
       <form className="mt-8 max-w-xl flex gap-3">
-        <input className="flex-1 border border-black/15 rounded-full px-4 py-3" placeholder="Your email address" type="email" />
+        <input className="flex-1 border border-dark rounded-full px-4 py-3" placeholder="Your email address" type="email" />
         <button className="btn btn-primary" type="submit">Subscribe</button>
       </form>
     </div>

@@ -49,9 +49,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${serif.variable} ${sans.variable} antialiased`}>
-        <header className="border-b border-black/10">
+        <header className="border-b border-dark bg-white">
           <div className="container flex items-center justify-between py-4">
-            <a href="/" className="text-2xl font-semibold tracking-wide">
+            <a href="/" className="text-2xl font-serif font-semibold tracking-wide">
               Times <span className="gold-accent">of</span> Fashion
             </a>
             <nav className="hidden md:flex gap-6 text-sm">
@@ -64,7 +64,7 @@ export default function RootLayout({
           </div>
         </header>
         <main>{children}</main>
-        <footer className="border-t border-black/10 mt-16">
+        <footer className="border-t border-dark mt-16 bg-white">
           <div className="container py-10 text-sm flex flex-col md:flex-row items-center justify-between gap-4">
             <p>© {new Date().getFullYear()} Times of Fashion. All rights reserved.</p>
             <div className="flex gap-4">

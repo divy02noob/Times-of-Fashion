@@ -16,7 +16,7 @@ export default function BlogIndexPage() {
       <h1 className="section-title">Latest from the Blog</h1>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
         {categories.map((c) => (
-          <a key={c.slug} href={`/blog/${c.slug}`} className="border border-black/10 rounded-lg p-6 bg-[var(--color-pastel-blue)]/50 hover:bg-white transition">
+          <a key={c.slug} href={`/blog/${c.slug}`} className="border border-dark rounded-lg p-6 bg-[var(--color-pastel-blue)]/70 hover:bg-white transition">
             <div className="text-xs uppercase tracking-widest opacity-70">Category</div>
             <div className="mt-2 text-base">{c.name}</div>
           </a>
@@ -24,7 +24,7 @@ export default function BlogIndexPage() {
       </div>
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {Array.from({ length: 9 }).map((_, i) => (
-          <article key={i} className="border border-black/10 rounded-lg overflow-hidden">
+          <article key={i} className="border border-dark rounded-lg overflow-hidden bg-white">
             <div className="aspect-[16/10] bg-[var(--color-pastel-pink)]" />
             <div className="p-4">
               <div className="text-xs uppercase tracking-widest opacity-70">Fashion</div>
