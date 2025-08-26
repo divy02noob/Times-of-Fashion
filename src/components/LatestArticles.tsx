@@ -48,7 +48,7 @@ const LatestArticles = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-4">
-            Latest <span className="text-gold">Stories</span>
+            Latest <span className="text-rose-gold">Stories</span>
           </h2>
           <p className="text-lg text-muted-foreground font-inter max-w-2xl mx-auto">
             Stay ahead of the curve with our curated selection of fashion insights, beauty tips, and lifestyle inspiration
@@ -58,7 +58,7 @@ const LatestArticles = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           {/* Featured Article */}
           <div className="lg:col-span-1">
-            <Card className="group overflow-hidden h-full shadow-magazine hover:shadow-gold transition-all duration-300 border-0">
+            <Card className="group overflow-hidden h-full shadow-magazine hover:shadow-rose-gold transition-all duration-300 border-0">
               <div className="relative overflow-hidden">
                 <img 
                   src={articles[0].image} 
@@ -66,13 +66,13 @@ const LatestArticles = () => {
                   className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-gold text-primary px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                  <span className="bg-rose-gold text-primary px-3 py-1 rounded-full text-sm font-inter font-semibold">
                     {articles[0].category}
                   </span>
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-2xl font-playfair font-bold mb-3 group-hover:text-gold transition-colors">
+                <h3 className="text-2xl font-playfair font-bold mb-3 group-hover:text-rose-gold transition-colors">
                   {articles[0].title}
                 </h3>
                 <p className="text-muted-foreground font-inter mb-4 line-clamp-3">
@@ -97,7 +97,7 @@ const LatestArticles = () => {
           {/* Other Articles */}
           <div className="grid grid-cols-1 gap-6">
             {articles.slice(1).map((article) => (
-              <Card key={article.id} className="group overflow-hidden shadow-elegant hover:shadow-gold transition-all duration-300 border-0">
+              <Card key={article.id} className="group overflow-hidden shadow-elegant hover:shadow-rose-gold transition-all duration-300 border-0">
                 <div className="flex gap-4 p-6">
                   <div className="relative w-32 h-24 overflow-hidden rounded-lg flex-shrink-0">
                     <img 
@@ -112,7 +112,7 @@ const LatestArticles = () => {
                         {article.category}
                       </span>
                     </div>
-                    <h3 className="text-lg font-playfair font-semibold mb-2 group-hover:text-gold transition-colors line-clamp-2">
+                    <h3 className="text-lg font-playfair font-semibold mb-2 group-hover:text-rose-gold transition-colors line-clamp-2">
                       {article.title}
                     </h3>
                     <div className="flex items-center gap-3 text-xs text-muted-foreground font-inter">
@@ -136,7 +136,7 @@ const LatestArticles = () => {
           <Button 
             variant="outline" 
             size="lg"
-            className="border-gold text-gold hover:bg-gold hover:text-primary font-inter font-semibold px-8"
+            className="border-rose-gold text-rose-gold hover:bg-rose-gold hover:text-primary font-inter font-semibold px-8"
           >
             View All Articles
           </Button>

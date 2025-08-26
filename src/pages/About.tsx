@@ -33,7 +33,7 @@ const About = () => {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-hero">
           <div className="container mx-auto max-w-4xl text-center">
             <h1 className="text-5xl sm:text-6xl font-playfair font-bold mb-6">
-              About <span className="text-gold">Times of Fashion</span>
+              About <span className="text-rose-gold">Times of Fashion</span>
             </h1>
             <p className="text-xl text-muted-foreground font-inter max-w-3xl mx-auto">
               We're passionate storytellers dedicated to bringing you the latest in fashion, beauty, and lifestyle. 
@@ -48,7 +48,7 @@ const About = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-4xl font-playfair font-bold mb-6">
-                  Our <span className="text-gold">Mission</span>
+                  Our <span className="text-rose-gold">Mission</span>
                 </h2>
                 <p className="text-lg text-muted-foreground font-inter mb-6">
                   At Times of Fashion, we believe that style is personal and fashion should be accessible to everyone. 
@@ -75,29 +75,29 @@ const About = () => {
           <div className="container mx-auto max-w-6xl">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-playfair font-bold mb-4">
-                Our <span className="text-gold">Values</span>
+                Our <span className="text-rose-gold">Values</span>
               </h2>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 {
-                  icon: <Heart className="text-gold" size={32} />,
+                  icon: <Heart className="text-rose-gold" size={32} />,
                   title: "Authenticity",
                   description: "We believe in genuine style advice and honest reviews"
                 },
                 {
-                  icon: <Users className="text-gold" size={32} />,
+                  icon: <Users className="text-rose-gold" size={32} />,
                   title: "Inclusivity",
                   description: "Fashion is for everyone, regardless of size, age, or budget"
                 },
                 {
-                  icon: <Star className="text-gold" size={32} />,
+                  icon: <Star className="text-rose-gold" size={32} />,
                   title: "Quality",
                   description: "We curate only the best content and most relevant trends"
                 },
                 {
-                  icon: <Award className="text-gold" size={32} />,
+                  icon: <Award className="text-rose-gold" size={32} />,
                   title: "Innovation",
                   description: "We stay ahead of trends and embrace fashion's evolution"
                 }
@@ -119,7 +119,7 @@ const About = () => {
           <div className="container mx-auto max-w-6xl">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-playfair font-bold mb-4">
-                Meet Our <span className="text-gold">Team</span>
+                Meet Our <span className="text-rose-gold">Team</span>
               </h2>
               <p className="text-lg text-muted-foreground font-inter max-w-2xl mx-auto">
                 The passionate individuals behind Times of Fashion, bringing you the best in style and inspiration
@@ -138,7 +138,7 @@ const About = () => {
                   </div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-playfair font-bold mb-2">{member.name}</h3>
-                    <p className="text-gold font-inter font-semibold mb-3">{member.role}</p>
+                    <p className="text-rose-gold font-inter font-semibold mb-3">{member.role}</p>
                     <p className="text-muted-foreground font-inter">{member.bio}</p>
                   </CardContent>
                 </Card>

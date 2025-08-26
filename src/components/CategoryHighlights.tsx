@@ -30,7 +30,7 @@ const CategoryHighlights = () => {
       description: "Red carpet looks and star interviews",
       image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=300&fit=crop",
       count: "89 articles",
-      color: "gold"
+      color: "rose-gold"
     },
     {
       name: "Culture",
@@ -51,7 +51,7 @@ const CategoryHighlights = () => {
       description: "Celebrating excellence and achievements",
       image: "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?w=400&h=300&fit=crop",
       count: "32 articles",
-      color: "gold"
+      color: "rose-gold"
     }
   ];
 
@@ -60,7 +60,7 @@ const CategoryHighlights = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-4">
-            Explore Our <span className="text-gold">Categories</span>
+            Explore Our <span className="text-rose-gold">Categories</span>
           </h2>
           <p className="text-lg text-muted-foreground font-inter max-w-2xl mx-auto">
             Dive deep into the topics that matter most to you, from high fashion to everyday wellness
@@ -88,7 +88,7 @@ const CategoryHighlights = () => {
                 </p>
                 <Button 
                   variant="ghost" 
-                  className="group-hover:bg-gold group-hover:text-primary transition-colors p-0 h-auto font-inter font-semibold text-gold hover:text-primary"
+                  className="group-hover:bg-rose-gold group-hover:text-primary transition-colors p-0 h-auto font-inter font-semibold text-rose-gold hover:text-primary"
                 >
                   Explore Category
                   <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />

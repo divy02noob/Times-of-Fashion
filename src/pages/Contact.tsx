@@ -41,7 +41,7 @@ const Contact = () => {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-hero">
           <div className="container mx-auto max-w-4xl text-center">
             <h1 className="text-5xl sm:text-6xl font-playfair font-bold mb-6">
-              Get In <span className="text-gold">Touch</span>
+              Get In <span className="text-rose-gold">Touch</span>
             </h1>
             <p className="text-xl text-muted-foreground font-inter max-w-3xl mx-auto">
               We'd love to hear from you! Whether you have a story idea, collaboration proposal, 
@@ -128,7 +128,7 @@ const Contact = () => {
                       <Button 
                         type="submit" 
                         size="lg"
-                        className="bg-gold hover:bg-gold-dark text-primary font-inter font-semibold shadow-gold"
+                        className="bg-rose-gold hover:bg-rose-gold-dark text-primary font-inter font-semibold shadow-rose-gold"
                       >
                         Send Message
                       </Button>
@@ -144,21 +144,21 @@ const Contact = () => {
                     <h3 className="text-xl font-playfair font-bold mb-4">Contact Information</h3>
                     <div className="space-y-4">
                       <div className="flex items-start gap-3">
-                        <Mail className="text-gold mt-1" size={20} />
+                        <Mail className="text-rose-gold mt-1" size={20} />
                         <div>
                           <p className="font-inter font-semibold">Email</p>
                           <p className="text-muted-foreground font-inter text-sm">hello@timesoffashion.com</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
-                        <Phone className="text-gold mt-1" size={20} />
+                        <Phone className="text-rose-gold mt-1" size={20} />
                         <div>
                           <p className="font-inter font-semibold">Phone</p>
                           <p className="text-muted-foreground font-inter text-sm">+1 (555) 123-4567</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
-                        <MapPin className="text-gold mt-1" size={20} />
+                        <MapPin className="text-rose-gold mt-1" size={20} />
                         <div>
                           <p className="font-inter font-semibold">Address</p>
                           <p className="text-muted-foreground font-inter text-sm">
@@ -185,7 +185,7 @@ const Contact = () => {
                     </ul>
                     <Button 
                       variant="outline" 
-                      className="mt-4 w-full border-gold text-gold hover:bg-gold hover:text-primary font-inter"
+                      className="mt-4 w-full border-rose-gold text-rose-gold hover:bg-rose-gold hover:text-primary font-inter"
                     >
                       View Partnership Opportunities
                     </Button>
@@ -196,9 +196,9 @@ const Contact = () => {
                   <CardContent className="p-6">
                     <h3 className="text-xl font-playfair font-bold mb-4">Follow Us</h3>
                     <div className="flex space-x-4">
-                      <Instagram className="text-gold hover:text-gold-dark transition-colors cursor-pointer" size={24} />
-                      <Twitter className="text-gold hover:text-gold-dark transition-colors cursor-pointer" size={24} />
-                      <Mail className="text-gold hover:text-gold-dark transition-colors cursor-pointer" size={24} />
+                      <Instagram className="text-rose-gold hover:text-rose-gold-dark transition-colors cursor-pointer" size={24} />
+                      <Twitter className="text-rose-gold hover:text-rose-gold-dark transition-colors cursor-pointer" size={24} />
+                      <Mail className="text-rose-gold hover:text-rose-gold-dark transition-colors cursor-pointer" size={24} />
                     </div>
                   </CardContent>
                 </Card>

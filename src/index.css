@@ -30,8 +30,8 @@ All colors MUST be HSL.
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 40%;
 
-    /* Luxury Gold Accent */
-    --accent: 45 90% 60%;
+    /* Luxury Rose Gold Accent */
+    --accent: 340 60% 65%;
     --accent-foreground: 0 0% 5%;
 
     /* Pastel Highlights */
@@ -39,19 +39,19 @@ All colors MUST be HSL.
     --pastel-lavender: 270 30% 92%;
     --pastel-mint: 150 25% 92%;
 
-    /* Gold Variations */
-    --gold: 45 90% 60%;
-    --gold-light: 45 80% 75%;
-    --gold-dark: 45 95% 45%;
+    /* Rose Gold Variations */
+    --rose-gold: 340 60% 65%;
+    --rose-gold-light: 340 50% 75%;
+    --rose-gold-dark: 340 70% 55%;
 
     /* Magazine Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(340 40% 92%), hsl(270 30% 92%));
-    --gradient-gold: linear-gradient(135deg, hsl(45 95% 45%), hsl(45 80% 75%));
+    --gradient-rose-gold: linear-gradient(135deg, hsl(340 70% 55%), hsl(340 50% 75%));
     --gradient-elegant: linear-gradient(180deg, hsl(0 0% 100%), hsl(0 0% 98%));
 
     /* Sophisticated Shadows */
     --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.1);
-    --shadow-gold: 0 8px 32px -8px hsl(45 90% 60% / 0.3);
+    --shadow-rose-gold: 0 8px 32px -8px hsl(340 60% 65% / 0.3);
     --shadow-magazine: 0 20px 60px -20px hsl(0 0% 0% / 0.15);
 
     --destructive: 0 84.2% 60.2%;
@@ -59,7 +59,7 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 94%;
-    --ring: 45 90% 60%;
+    --ring: 340 60% 65%;
 
     --radius: 0.5rem;
 

@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-playfair font-bold mb-6 leading-tight">
           Your Daily Dose of
-          <span className="block bg-gradient-gold bg-clip-text text-transparent">
+          <span className="block bg-gradient-rose-gold bg-clip-text text-transparent">
             Fashion & Glamour
           </span>
         </h1>
@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
             size="lg" 
-            className="bg-gold hover:bg-gold-dark text-primary font-inter font-semibold px-8 py-3 text-lg shadow-gold"
+            className="bg-rose-gold hover:bg-rose-gold-dark text-primary font-inter font-semibold px-8 py-3 text-lg shadow-rose-gold"
           >
             Explore Latest Trends
           </Button>

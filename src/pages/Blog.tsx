@@ -117,7 +117,7 @@ const Blog = () => {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-hero">
           <div className="container mx-auto max-w-4xl text-center">
             <h1 className="text-5xl sm:text-6xl font-playfair font-bold mb-6">
-              {getCategoryTitle(category)} <span className="text-gold">Stories</span>
+              {getCategoryTitle(category)} <span className="text-rose-gold">Stories</span>
             </h1>
             <p className="text-xl text-muted-foreground font-inter max-w-3xl mx-auto">
               {getCategoryDescription(category)}
@@ -138,13 +138,13 @@ const Blog = () => {
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute top-4 left-4">
-                      <span className="bg-gold text-primary px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                      <span className="bg-rose-gold text-primary px-3 py-1 rounded-full text-sm font-inter font-semibold">
                         {article.category}
                       </span>
                     </div>
                   </div>
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-playfair font-bold mb-3 group-hover:text-gold transition-colors line-clamp-2">
+                    <h3 className="text-xl font-playfair font-bold mb-3 group-hover:text-rose-gold transition-colors line-clamp-2">
                       {article.title}
                     </h3>
                     <p className="text-muted-foreground font-inter mb-4 line-clamp-3">
@@ -184,7 +184,7 @@ const Blog = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="border-gold text-gold hover:bg-gold hover:text-primary font-inter font-semibold px-8"
+                className="border-rose-gold text-rose-gold hover:bg-rose-gold hover:text-primary font-inter font-semibold px-8"
               >
                 Load More Articles
               </Button>

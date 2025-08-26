@@ -8,7 +8,6 @@ const Header = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: "Home", href: "/" },
     { name: "Fashion", href: "/blog/fashion" },
     { name: "Beauty", href: "/blog/beauty" },
     { name: "Lifestyle", href: "/blog/lifestyle" },
@@ -28,7 +27,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-playfair font-bold bg-gradient-gold bg-clip-text text-transparent">
+            <div className="text-2xl font-playfair font-bold bg-gradient-rose-gold bg-clip-text text-transparent">
               Times of Fashion
             </div>
           </Link>
@@ -39,8 +38,8 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className={`text-sm font-inter font-medium transition-colors hover:text-gold ${
-                  isActive(item.href) ? "text-gold" : "text-foreground"
+                className={`text-sm font-inter font-medium transition-colors hover:text-rose-gold ${
+                  isActive(item.href) ? "text-rose-gold" : "text-foreground"
                 }`}
               >
                 {item.name}
@@ -49,7 +48,7 @@ const Header = () => {
             <Button 
               variant="outline" 
               size="sm"
-              className="border-gold text-gold hover:bg-gold hover:text-primary font-inter"
+              className="border-rose-gold text-rose-gold hover:bg-rose-gold hover:text-primary font-inter"
             >
               Newsletter
             </Button>
@@ -76,7 +75,7 @@ const Header = () => {
                   key={item.name}
                   to={item.href}
                   className={`block px-3 py-2 text-base font-inter font-medium transition-colors ${
-                    isActive(item.href) ? "text-gold" : "text-foreground hover:text-gold"
+                    isActive(item.href) ? "text-rose-gold" : "text-foreground hover:text-rose-gold"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -87,7 +86,7 @@ const Header = () => {
                 <Button 
                   variant="outline" 
                   size="sm"
-                  className="w-full border-gold text-gold hover:bg-gold hover:text-primary font-inter"
+                  className="w-full border-rose-gold text-rose-gold hover:bg-rose-gold hover:text-primary font-inter"
                 >
                   Newsletter
                 </Button>
