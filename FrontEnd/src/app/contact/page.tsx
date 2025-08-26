@@ -8,7 +8,7 @@ export default function ContactPage() {
     <div className="container py-14">
       <h1 className="section-title">Contact & Collaboration</h1>
       <p className="mt-4 opacity-80 max-w-2xl">
-        Brands, PR, and creators—let's build something stylish together. Use the
+        Brands, PR, and creators—let&apos;s build something stylish together. Use the
         form below or email <span className="gold-accent">collaboration@timesoffashion.com</span>.
       </p>
       <form className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
