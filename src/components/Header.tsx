@@ -13,6 +13,9 @@ const Header = () => {
     { name: "Beauty", href: "/blog/beauty" },
     { name: "Lifestyle", href: "/blog/lifestyle" },
     { name: "Celebrity", href: "/blog/celebrity" },
+    { name: "Culture", href: "/blog/culture" },
+    { name: "Wellness", href: "/blog/wellness" },
+    { name: "Honours", href: "/blog/honours" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ];

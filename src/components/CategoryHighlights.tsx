@@ -45,6 +45,13 @@ const CategoryHighlights = () => {
       image: "https://images.unsplash.com/photo-1506126613408-eca07ce68e71?w=400&h=300&fit=crop",
       count: "67 articles",
       color: "pastel-lavender"
+    },
+    {
+      name: "Honours",
+      description: "Celebrating excellence and achievements",
+      image: "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?w=400&h=300&fit=crop",
+      count: "32 articles",
+      color: "gold"
     }
   ];
 
@@ -60,7 +67,7 @@ const CategoryHighlights = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {categories.map((category) => (
             <Card key={category.name} className="group overflow-hidden shadow-elegant hover:shadow-magazine transition-all duration-300 border-0">
               <div className="relative overflow-hidden">

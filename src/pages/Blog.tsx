@@ -16,6 +16,7 @@ const Blog = () => {
       case 'celebrity': return 'Celebrity';
       case 'culture': return 'Culture';
       case 'wellness': return 'Wellness';
+      case 'honours': return 'Honours';
       default: return 'All Articles';
     }
   };
@@ -28,6 +29,7 @@ const Blog = () => {
       case 'celebrity': return 'Get the inside scoop on celebrity fashion, red carpet looks, and star interviews';
       case 'culture': return 'Explore the intersection of fashion, art, music, and cultural movements';
       case 'wellness': return 'Achieve balance and well-being through mindful living and self-care';
+      case 'honours': return 'Celebrating achievements and recognizing excellence in fashion and lifestyle';
       default: return 'Explore our complete collection of fashion, beauty, and lifestyle content';
     }
   };
