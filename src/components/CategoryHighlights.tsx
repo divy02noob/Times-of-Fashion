@@ -1,6 +1,8 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import InstagramHighlights from "./InstagramHighlights";
 
 const CategoryHighlights = () => {
   const categories = [
@@ -59,7 +61,7 @@ const CategoryHighlights = () => {
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-elegant">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-12">
-          <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-4">
+          <h2    id="explore-categories"     className="text-4xl sm:text-5xl font-playfair font-bold mb-4">
             Explore Our <span className="text-rose-gold">Categories</span>
           </h2>
           <p className="text-lg text-muted-foreground font-inter max-w-2xl mx-auto">
@@ -89,6 +91,7 @@ const CategoryHighlights = () => {
                 <Button 
                   variant="ghost" 
                   className="group-hover:bg-rose-gold group-hover:text-primary transition-colors p-0 h-auto font-inter font-semibold text-rose-gold hover:text-primary"
+                 
                 >
                   Explore Category
                   <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -98,8 +101,9 @@ const CategoryHighlights = () => {
           ))}
         </div>
       </div>
+      <InstagramHighlights/>
     </section>
   );
 };
 
-export default CategoryHighlights;
+export default CategoryHighlights; 

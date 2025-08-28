@@ -128,3 +128,14 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+
+/* Add this to your global CSS file 
+
+.custom-shadow {
+  box-shadow:
+    15px 0 25px -10px rgba(0, 0, 0, 0.2),  /* right shadow *
+    -15px 0 25px -10px rgba(0, 0, 0, 0.2), /* left shadow *
+    0 10px 20px -5px rgba(0, 0, 0, 0.15);   /* bottom shadow *
+}
+*/

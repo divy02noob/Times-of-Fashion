@@ -1,7 +1,14 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-fashion.jpg";
 
-const Hero = () => {
+  const Hero = () => {
+  const scrollToCategories = () => {
+    const section = document.getElementById('explore-categories');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -31,15 +38,18 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-rose-gold hover:bg-rose-gold-dark text-primary font-inter font-semibold px-8 py-3 text-lg shadow-rose-gold"
+
+            onClick={scrollToCategories}
           >
+
             Explore Latest Trends
           </Button>
           <Button 
             variant="outline" 
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-primary font-inter font-semibold px-8 py-3 text-lg"
-          >
-            Subscribe Now
+           /* className="border-white text-white hover:bg-white hover:text-primary font-inter font-semibold px-8 py-3 text-lg"*/
+            className="border-white text-black  font-inter font-semibold px-8 py-3 text-lg" >
+            About US
           </Button>
         </div>
       </div>
